@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Muchanga's Portfolio</title>
+  </head>
+  <body>
+    <div class="progress-bar" id="progressBar"></div>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <header>
+      <h1><span class="typing-text" id="typingText"></span></h1>
+      <nav aria-label="Main navigation">
+        <ul id="navLinks">
+          <li><a href="#about" class="nav-link">About Me</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="about">
+        <h2>About Me</h2>
+        <img src="images/mb.JPG" alt="Portrait photo of Muchanga" />
+        <p>
+          Hello! I'm Muchanga, a passionate developer with experience in web
+          development and design. I love creating beautiful and functional
+          websites that provide exceptional user experiences. With a keen eye
+          for detail and a commitment to clean code, I bring ideas to life
+          through innovative digital solutions.
+        </p>
+        <div class="stats-container">
+          <div class="stat-item">
+            <span class="stat-number" data-target="20">0</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="2">0</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="10">0</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Task Tracker Pro</h3>
+            <p>
+              A web application that helps users track their tasks efficiently
+              with intuitive drag-and-drop functionality, priority settings, and
+              real-time collaboration features.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <h3>E-Commerce Platform</h3>
+            <p>
+              An e-commerce website designed for small businesses to sell their
+              products online with integrated payment processing, inventory
+              management, and analytics dashboard.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <h3>Portfolio Showcase</h3>
+            <p>
+              A responsive portfolio template system that allows creatives to
+              showcase their work with customizable themes, smooth animations,
+              and mobile-first design principles.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          I'd love to hear from you! Feel free to reach out through any of the
+          following channels:
+        </p>
+        <div class="contact-info">
+          <div class="contact-item">
+            <strong>Email:</strong>
+            <a href="mailto:dev.muchanga@gmail.com">dev.muchanga@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <strong>Phone:</strong>
+            <span>+254-756-848-801</span>
+          </div>
+          <div class="contact-item">
+            <strong>Location:</strong>
+            <span>Available for remote work</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+      ↑
+    </button>
+
+    <footer>
+      <p>&copy; 2025 Muchanga. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
